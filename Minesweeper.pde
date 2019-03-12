@@ -30,7 +30,7 @@ public void setBombs()
       col=(int)(Math.random()*NUM_COLS);
       if(!bombs.contains(buttons[row][col])){
         bombs.add(buttons[row][col]);
-        System.out.println(row + ", " + col);
+        // System.out.println(row + ", " + col);
       }
     }
 }
